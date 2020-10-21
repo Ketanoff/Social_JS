@@ -16,7 +16,5 @@ const Posts = ( props ) => {
 
     );
 };
-// function f() {
-//
-// }
+
 export default Posts;
