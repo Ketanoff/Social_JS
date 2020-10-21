@@ -1,0 +1,13 @@
+.nav {
+    grid-area: n;
+    background-color: darkkhaki;
+    padding: 20px;
+}
+.item a {
+    color: #43463e;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: white;
+}
