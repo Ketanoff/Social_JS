@@ -13,7 +13,7 @@ const App = () => {
         <div className={s.app_Wrapper}>
             < Header/>
             < Navbar
-                // friends={props.state.sideBar}
+            // friends={props.state.sideBar}
             />
             <div className={s.app_Wrapper_Content}>
                 <Route path='/dialogs'
