@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52fb5a11-49c6-4b0e-8e68-75be95b9269e" name="Default Changelist" comment="add 'axios' library">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/images1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Friends/Friends.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j0Y1BkrErrc9RSPLN3BShQvxRu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+    <property name="ts.external.directory.path" value="D:\cod\react\Social\Social_js\react_js_01\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Users" />
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\redux" />
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Navbar\Friends" />
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Dialogs" />
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Profile\MyPosts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.storybook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Ketanoff\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52fb5a11-49c6-4b0e-8e68-75be95b9269e" name="Default Changelist" comment="" />
+      <created>1602942259274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602942259274</updated>
+      <workItem from="1602942260438" duration="1397000" />
+      <workItem from="1602945379482" duration="108000" />
+      <workItem from="1602989064455" duration="349000" />
+      <workItem from="1602997983684" duration="600000" />
+      <workItem from="1603003381446" duration="1934000" />
+      <workItem from="1603010803947" duration="54000" />
+      <workItem from="1603013712648" duration="7795000" />
+      <workItem from="1603177474355" duration="8869000" />
+      <workItem from="1603188389287" duration="4611000" />
+      <workItem from="1603205664348" duration="243000" />
+      <workItem from="1603205913196" duration="39000" />
+      <workItem from="1603205957858" duration="60000" />
+      <workItem from="1603206023581" duration="14383000" />
+      <workItem from="1603239003463" duration="4314000" />
+      <workItem from="1603275420120" duration="12175000" />
+      <workItem from="1603446200282" duration="3747000" />
+      <workItem from="1603534919917" duration="84000" />
+      <workItem from="1603538993088" duration="50000" />
+      <workItem from="1603607498981" duration="14124000" />
+      <workItem from="1603649105887" duration="4346000" />
+      <workItem from="1603711921888" duration="14518000" />
+      <workItem from="1603910234568" duration="2062000" />
+      <workItem from="1604159539659" duration="12244000" />
+      <workItem from="1604234691456" duration="9561000" />
+      <workItem from="1604270940719" duration="9518000" />
+      <workItem from="1604369518618" duration="1005000" />
+      <workItem from="1604371382952" duration="120000" />
+      <workItem from="1604372663570" duration="945000" />
+      <workItem from="1604373674764" duration="258000" />
+      <workItem from="1604374026625" duration="1118000" />
+      <workItem from="1604376052506" duration="403000" />
+      <workItem from="1607318373703" duration="13637000" />
+      <workItem from="1607407804870" duration="1786000" />
+      <workItem from="1607586807024" duration="14372000" />
+      <workItem from="1607697423182" duration="14900000" />
+      <workItem from="1607714443121" duration="2560000" />
+      <workItem from="1607763879806" duration="1096000" />
+      <workItem from="1607777548705" duration="2945000" />
+      <workItem from="1607780508555" duration="4349000" />
+      <workItem from="1607784881973" duration="1811000" />
+      <workItem from="1607815614161" duration="2221000" />
+      <workItem from="1607819644385" duration="1956000" />
+      <workItem from="1607835258713" duration="9463000" />
+      <workItem from="1607875138544" duration="6853000" />
+      <workItem from="1619123308664" duration="4034000" />
+      <workItem from="1619133174796" duration="917000" />
+      <workItem from="1619135816954" duration="63000" />
+      <workItem from="1619135914825" duration="1111000" />
+      <workItem from="1619146358277" duration="16000" />
+      <workItem from="1619146445416" duration="490000" />
+      <workItem from="1619303584024" duration="71000" />
+      <workItem from="1619307019380" duration="1398000" />
+      <workItem from="1619308525015" duration="794000" />
+    </task>
+    <task id="LOCAL-00001" summary="Refactor Dialogs">
+      <created>1603241406468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603241406468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactor Dialogs">
+      <created>1603241916564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603241916564</updated>
+    </task>
+    <task id="LOCAL-00003" summary="transferring data to the index.js">
+      <created>1603287573897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603287573897</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add reducer and redux">
+      <created>1607349886301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607349886301</updated>
+    </task>
+    <task id="LOCAL-00005" summary="createContext">
+      <created>1607764143809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607764143809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add 'connect function'">
+      <created>1607786061103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607786061103</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor: lesson 48">
+      <created>1607835514435</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607835514435</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add 'axios' library">
+      <created>1607879179136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607879179136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor Dialogs" />
+    <MESSAGE value="transferring data to the index.js" />
+    <MESSAGE value="add reducer and redux" />
+    <MESSAGE value="createContext" />
+    <MESSAGE value="add 'connect function'" />
+    <MESSAGE value="refactor: lesson 48" />
+    <MESSAGE value="add 'axios' library" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 'axios' library" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
