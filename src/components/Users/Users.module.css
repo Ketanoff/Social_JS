@@ -1,4 +1,13 @@
 .users {
     background-color: #86b6ae;
     margin: 5px auto;
+
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.cursor {
+    cursor: pointer;
 }
