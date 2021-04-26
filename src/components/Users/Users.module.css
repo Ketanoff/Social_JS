@@ -1,7 +1,6 @@
 .users {
     background-color: #86b6ae;
-    margin: 5px auto;
-
+    /*margin: 5px auto;*/
 }
 
 .selectedPage {
@@ -10,4 +9,17 @@
 
 .cursor {
     cursor: pointer;
+}
+
+.cont {
+    position: relative;
+}
+
+.preloader {
+    opacity: .5;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
