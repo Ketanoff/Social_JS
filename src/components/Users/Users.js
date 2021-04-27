@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Users.module.css';
 import userPhoto from '../../assets/images/images1.png';
 import {createPages} from './PageCreator';
+import {NavLink} from 'react-router-dom';
 
 let Users = (props) => {
     
@@ -19,16 +20,18 @@ let Users = (props) => {
         
         </div>
         {props.users.map(u => <div key={u.id}>
-                <span>
-                    <span>
-                        <img src={u.photos.small != null ? u.photos.small : userPhoto}/>
-                    </span>
-                    <div>
-                        {u.followed
-                            ? <button onClick={() => {props.unFollow(u.id);}}>UnFollow</button>
-                            : <button onClick={() => {props.follow(u.id);}}>Follow</button>}
-                    </div>
-                </span>
+            <div>
+                <div>
+                    <NavLink to={'/profile/' + u.id}>
+                        <img className={s.usersPhoto} src={u.photos.small != null ? u.photos.small : userPhoto}/>
+                    </NavLink>
+                </div>
+                <div>
+                    {u.followed
+                        ? <button onClick={() => {props.unFollow(u.id);}}>UnFollow</button>
+                        : <button onClick={() => {props.follow(u.id);}}>Follow</button>}
+                </div>
+            </div>
             <span>
                     <span>
                         <div>{u.name}</div>
