@@ -1,30 +1,16 @@
 const FOLLOW = 'FOLLOW';
 const UNFOLLOW = 'UNFOLLOW';
 const SET_USERS = 'SET-USERS';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT';
+const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
 
 let initialState = {
-    users: [
-        // {
-        //     id      : 1, photoURL: 'https://download-cs.net/steam/avatars/3120.jpg',
-        //     status: 'on their studies',
-        //     followed: false, fullName: 'Jon S.', location: {city: 'Minsk', country: 'Belarus'}
-        // },
-        // {
-        //     id      : 2, photoURL: 'https://download-cs.net/steam/avatars/3120.jpg',
-        //     status: 'at work',
-        //     followed: true, fullName: 'Welder', location: {city: 'Neryungri', country: 'Yakutia'}
-        // },
-        // {
-        //     id      : 3, photoURL: 'https://download-cs.net/steam/avatars/3120.jpg',
-        //     status: 'at work',
-        //     followed: true, fullName: 'Max', location: {city: 'Moscow', country: 'Russia'}
-        // },
-        // {
-        //     id      : 4, photoURL: 'https://download-cs.net/steam/avatars/3120.jpg',
-        //     status: 'in the guardhouse',
-        //     followed: false, fullName: 'Prof', location: {city: 'Kiev', country: 'Ukraine'}
-        // }
-    ]
+    users          : [],
+    pageSize       : 5,
+    totalUsersCount: 0,
+    currentPage    : 1,
+    isFetching     : true
 };
 
 const usersReducer = (state = initialState, action) => {
@@ -40,7 +26,6 @@ const usersReducer = (state = initialState, action) => {
                     return u;
                 })
             };
-        
         case UNFOLLOW:
             return {
                 ...state,
@@ -51,18 +36,28 @@ const usersReducer = (state = initialState, action) => {
                     return u;
                 })
             };
-        
         case SET_USERS: {
-            return {...state, users: [...state.users, ...action.users]};
+            return {...state, users: action.users};
+        }
+        case SET_CURRENT_PAGE: {
+            return {...state, currentPage: action.currentPage};
+        }
+        case SET_TOTAL_USERS_COUNT: {
+            return {...state, totalUsersCount: action.count};
+        }
+        case TOGGLE_IS_FETCHING: {
+            return {...state, isFetching: action.isFetching};
         }
         default:
             return state;
-        
     }
 };
 
 export const followAC = (userId) => ({type: FOLLOW, userId});
 export const unFollowAC = (userId) => ({type: UNFOLLOW, userId});
 export const setUsersAC = (users) => ({type: SET_USERS, users});
+export const setCurrentPageAC = (currentPage) => ({type: SET_CURRENT_PAGE, currentPage});
+export const setTotalUsersCountAC = (totalUsersCount) => ({type: SET_TOTAL_USERS_COUNT, count: totalUsersCount});
+export const toggleIsFetchingAC = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
 
 export default usersReducer;
