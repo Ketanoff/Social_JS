@@ -19,15 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52fb5a11-49c6-4b0e-8e68-75be95b9269e" name="Default Changelist" comment="add pagination">
-      <change afterPath="$PROJECT_DIR$/src/assets/preloader/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
+    <list default="true" id="dfbc11ea-dab1-45b8-a813-46ca112246c3" name="Default Changelist" comment="rebase in to master">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,18 +77,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.21536253" />
     <property name="ts.external.directory.path" value="D:\cod\react\Social\Social_js\react_js_01\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Profile" />
       <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Users" />
       <recent name="D:\cod\react\Social\Social_js\react_js_01\src\redux" />
       <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Navbar\Friends" />
       <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Dialogs" />
-      <recent name="D:\cod\react\Social\Social_js\react_js_01\src\components\Profile\MyPosts" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -124,7 +127,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52fb5a11-49c6-4b0e-8e68-75be95b9269e" name="Default Changelist" comment="" />
+      <changelist id="dfbc11ea-dab1-45b8-a813-46ca112246c3" name="Default Changelist" comment="rebase in to master" />
       <created>1602942259274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -184,6 +187,9 @@
       <workItem from="1619308525015" duration="2138000" />
       <workItem from="1619396195635" duration="22061000" />
       <workItem from="1619434203387" duration="12185000" />
+      <workItem from="1619499409197" duration="12182000" />
+      <workItem from="1619517980989" duration="1656000" />
+      <workItem from="1619519746180" duration="1648000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Dialogs">
       <created>1603241406468</created>
@@ -255,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619423521263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="rebase in to master">
+      <created>1619483022438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619483022438</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +295,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main/createContext" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -343,7 +356,8 @@
     <MESSAGE value="add 'axios' library" />
     <MESSAGE value="add changes to .gitignore" />
     <MESSAGE value="add pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pagination" />
+    <MESSAGE value="rebase in to master" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebase in to master" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

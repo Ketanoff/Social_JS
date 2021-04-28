@@ -3,6 +3,11 @@
     /*margin: 5px auto;*/
 }
 
+.usersPhoto {
+    /*weight: 10px;*/
+    height: 5rem;
+}
+
 .selectedPage {
     font-weight: bold;
 }
@@ -16,8 +21,10 @@
 }
 
 .preloader {
+
+    height: 10rem;
     opacity: .5;
-    display: inline-block;
+    display: flex;
     position: absolute;
     margin: auto;
     left: 0;
