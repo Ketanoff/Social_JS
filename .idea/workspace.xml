@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,14 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfbc11ea-dab1-45b8-a813-46ca112246c3" name="Default Changelist" comment="add 'withRouter'">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+    <list default="true" id="dfbc11ea-dab1-45b8-a813-46ca112246c3" name="Default Changelist" comment="add authReducer">
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/preloader/preloader11-05022017-011.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +60,17 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1j0Y1BkrErrc9RSPLN3BShQvxRu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,8 +80,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="format.on.save" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,9 +93,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.21536253" />
-    <property name="ts.external.directory.path" value="D:\cod\react\Social\Social_js\react_js_01\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\cod\react\Social\Social_js\react_js_a\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -187,7 +208,24 @@
       <workItem from="1619519746180" duration="12900000" />
       <workItem from="1619590904640" duration="1392000" />
       <workItem from="1619954785274" duration="89000" />
-      <workItem from="1619954903855" duration="357000" />
+      <workItem from="1619954903855" duration="1173000" />
+      <workItem from="1619956098640" duration="1996000" />
+      <workItem from="1619961176366" duration="1550000" />
+      <workItem from="1620000569093" duration="8657000" />
+      <workItem from="1620089811684" duration="12922000" />
+      <workItem from="1620116757881" duration="12454000" />
+      <workItem from="1620308010123" duration="558000" />
+      <workItem from="1620448403442" duration="1002000" />
+      <workItem from="1620545330374" duration="355000" />
+      <workItem from="1620554185129" duration="1525000" />
+      <workItem from="1620779287675" duration="564000" />
+      <workItem from="1624436840522" duration="127000" />
+      <workItem from="1631159571227" duration="2032000" />
+      <workItem from="1631162599094" duration="3673000" />
+      <workItem from="1631167246334" duration="464000" />
+      <workItem from="1631167724411" duration="326000" />
+      <workItem from="1631178022162" duration="1078000" />
+      <workItem from="1631179774975" duration="12691000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor Dialogs">
       <created>1603241406468</created>
@@ -273,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619523662863</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add authReducer">
+      <created>1619955396949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619955396949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +345,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main/createContext" />
                       </list>
                     </value>
                   </entry>
@@ -363,7 +408,8 @@
     <MESSAGE value="add pagination" />
     <MESSAGE value="rebase in to master" />
     <MESSAGE value="add 'withRouter'" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 'withRouter'" />
+    <MESSAGE value="add authReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add authReducer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

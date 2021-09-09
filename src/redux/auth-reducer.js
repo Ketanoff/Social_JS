@@ -1,9 +1,9 @@
 const SET_USERS_DATA = 'SET_USERS_DATA';
 
 let initialState = {
-    id        : null,
-    login     : null,
-    email     : null,
+    id        : NaN,
+    login     : NaN,
+    email     : NaN,
     isFetching: false
 };
 
@@ -21,6 +21,7 @@ const authReducer = (state = initialState, action) => {
     }
 };
 
-export const setAuthUsersData = (userId, email, login) => ({type: SET_USERS_DATA, data: {userId, email, login}});
+export const setAuthUsersData = (userId, email, login) => (
+    {type: SET_USERS_DATA, data: {userId, email, login}});
 
 export default authReducer;
