@@ -1,35 +1,44 @@
 import React from 'react';
 import Profile from './Profile';
-import axios from 'axios';
 import {connect} from 'react-redux';
-import {setUserProfile} from '../../redux/profile-reducer';
+import {getUserProfile, getUserStatus, updateUserStatus} from '../../redux/profile-reducer';
 import {withRouter} from 'react-router-dom';
+import {withAuthRedirect} from '../../hoc/withAuthRedirect';
+import {compose} from 'redux';
 
 class ProfileContainer extends React.Component {
     
     componentDidMount() {
         let userId = this.props.match.params.userId;
         if (!userId) {
-            userId = '1620';
+            userId = '13324';
         }
-        axios.get(`https://social-network.samuraijs.com/api/1.0/profile/` + userId).then(response => {
-            this.props.setUserProfile(response.data);
-        });
+        this.props.getUserProfile(userId);
+        this.props.getUserStatus(userId);
+        // this.props.updateUserStatus(this.props.status);
     }
     
     render() {
         return (
             <div>
-                <Profile {...this.props} profile={this.props.profile}/>
+                <Profile {...this.props} status={this.props.status}
+                         profile={this.props.profile}
+                         updateUserStatus={this.props.updateUserStatus}/>
             </div>
         );
     }
 }
 
 let mapStateToProps = (state) => ({
-    profile: state.profilePage.profile
+    profile: state.profilePage.profile,
+    status : state.profilePage.status
 });
 
-let WithUrlDataContainerComponent = withRouter(ProfileContainer);
+/*let WithUrlDataContainerComponent = withRouter(ProfileContainer);
 
-export default connect(mapStateToProps, {setUserProfile})(WithUrlDataContainerComponent);
+export default withAuthRedirect(connect(mapStateToProps, {getUserProfile})(WithUrlDataContainerComponent));*/
+export default compose(
+    connect(mapStateToProps, {getUserProfile, getUserStatus, updateUserStatus}),
+    // withAuthRedirect,
+    withRouter
+)(ProfileContainer);
